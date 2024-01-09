@@ -88,14 +88,14 @@ nav {
 .menu a {
   display: block;
   padding: 10px;
-  color: #f36b2f;
+  color: #5930e2;
   text-decoration: none;
   transition: color 0.3s;
   text-align: end;
 }
 
 .menu a:hover {
-  color: #5930e2;
+  text-decoration: underline;
 }
 
 .burger {
@@ -107,7 +107,7 @@ nav {
 .burger .line {
   width: 100%;
   height: 2px;
-  background-color: #fdf9ef;
+  background-color: #5930e2;
   margin-bottom: 5px;
   transition: 0.2s linear;
 }
@@ -301,6 +301,10 @@ body {
 
 /* desktop */
 @media (min-width: 800px) {
+  .indholdsfortegnelse {
+    margin: 10% 0;
+  }
+
   .grid_s1 {
     display: grid;
     grid-template-columns: 1fr 1fr;
@@ -348,6 +352,17 @@ body {
     margin-right: 20px;
     margin-top: 20px;
     order: -1;
+  }
+
+  .button {
+    display: flex;
+    justify-content: center;
+  }
+
+  .to_knapper {
+    display: flex;
+    justify-content: space-between;
+    margin: 0 15%;
   }
 }
 
