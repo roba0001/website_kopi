@@ -1,4 +1,16 @@
 /* GENERELT */
+
+body {
+  background-color: #fdf9ef;
+  overflow-wrap: break-word;
+  margin-left: 1cm;
+  margin-right: 1cm;
+}
+
+.index_body {
+  background-color: #f36b2f;
+}
+
 ul {
   padding: 0;
 }
@@ -14,7 +26,7 @@ li {
 .displaytext {
   text-align: center;
   font-family: CameraObscura;
-  color: #f36b2f;
+  color: #fdf9ef;
 }
 
 h1,
@@ -22,15 +34,51 @@ h2 {
   font-family: "Fjalla One", sans-serif;
 }
 
+h1 {
+  text-transform: uppercase;
+  color: #f36b2f;
+  text-align: center;
+}
+
+h2 {
+  margin-top: 20px;
+}
+
 .indholdsfortegnelse {
-  font-family: ;
+  font-family: "Fjalla One", sans-serif;
+  font-weight: lighter;
+  text-transform: lowercase;
+}
+
+.burger nav .menu {
+  font-family: "Fjalla One", sans-serif;
+  font-weight: lighter;
+  text-transform: lowercase;
+}
+
+a {
+  text-decoration: none;
+  font-family: "Fjalla One", sans-serif;
+  font-weight: lighter;
+  text-transform: lowercase;
 }
 
 p,
-h3 {
+h3,
+.cantarell,
+footer {
   font-family: "Cantarell", sans-serif;
 }
 
-.button {
+footer {
+  font-weight: bolder;
+  color: #f36b2f;
+}
+
+.button,
+.button_midten {
   text-align: center;
+}
+.dot {
+  display: none;
 }
