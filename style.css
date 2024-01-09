@@ -11,23 +11,24 @@ li {
   src: url(fonts/CameraObscura.otf);
 }
 
-@font-face {
-  font-family: IBMPlexSans-Regular;
-  src: url(fonts/IBM_Plex_Sans/IBMPlexSans-Regular.ttf);
-}
-
 .displaytext {
   text-align: center;
   font-family: CameraObscura;
-  color: #da8052;
+  color: #f36b2f;
+}
+
+h1,
+h2 {
+  font-family: "Fjalla One", sans-serif;
 }
 
 .indholdsfortegnelse {
   font-family: ;
 }
 
-p {
-  font-family: IBMPlexSans-Regular;
+p,
+h3 {
+  font-family: "Cantarell", sans-serif;
 }
 
 .button {
