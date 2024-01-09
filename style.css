@@ -24,7 +24,7 @@ li {
 a {
   list-style: none;
   text-decoration: none;
-  color: #5930e2;
+  color: #f36b2f;
 }
 
 a:hover {
@@ -65,14 +65,13 @@ h2 {
 
 h1 {
   text-transform: uppercase;
-  color: #5930e2;
+  color: #f36b2f;
   text-align: center;
   font-size: 64px;
 }
 
 h2 {
   margin-top: 7%;
-  color: #f36b2f;
 }
 
 .burger nav .menu {
