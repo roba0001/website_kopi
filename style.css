@@ -1,0 +1,24 @@
+/* GENERELT */
+ul {
+  padding: 0;
+}
+li {
+  list-style: none;
+}
+
+@font-face {
+  font-family: "stora";
+  src: url("fonts/stora/Stora.woff2") format("woff2");
+  font-weight: normal;
+  font-style: normal;
+}
+h1 {
+  font-family: stora;
+  color: #f15a29;
+  text-transform: uppercase;
+  text-align: center;
+}
+
+.button {
+  text-align: center;
+}
