@@ -24,7 +24,7 @@ li {
 a {
   list-style: none;
   text-decoration: none;
-  color: #f36b2f;
+  color: #5930e2;
 }
 
 a:hover {
@@ -65,7 +65,7 @@ h2 {
 
 h1 {
   text-transform: uppercase;
-  color: #f36b2f;
+  color: #5930e2;
   text-align: center;
   font-size: 64px;
 }
@@ -135,11 +135,17 @@ footer {
   background-color: #f36b2f;
   border-radius: 20px;
   padding: 21px;
-  height: 50px;
   box-shadow: 4px 8px 1px rgba(243, 107, 47, 0.3);
   margin: 9px;
-  margin-top: 35%;
+  margin-top: 7%;
   width: fit-content;
+}
+
+@media (min-width: 800px) {
+  .button_midten {
+    height: 50px;
+    margin-top: 30%;
+  }
 }
 
 .button,
@@ -161,9 +167,13 @@ li {
   font-weight: lighter;
   margin: 10px 0;
   text-decoration: none;
-  color: #f36b2f;
 }
 
 .dot {
   display: none;
+}
+
+#nav_lys,
+#nav_lys2 {
+  color: #fdf9ef;
 }

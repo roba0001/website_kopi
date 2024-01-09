@@ -107,7 +107,7 @@ nav {
 .burger .line {
   width: 100%;
   height: 2px;
-  background-color: #5930e2;
+  background-color: #fdf9ef;
   margin-bottom: 5px;
   transition: 0.2s linear;
 }
@@ -115,7 +115,7 @@ nav {
 .moerk_burger .line {
   width: 100%;
   height: 2px;
-  background-color: #f36b2f;
+  background-color: #5930e2;
   margin-bottom: 5px;
   transition: 0.2s linear;
 }
@@ -358,12 +358,16 @@ body {
     display: flex;
     justify-content: center;
   }
-
   .to_knapper {
     display: flex;
     justify-content: space-between;
     margin: 0 15%;
   }
+}
+
+.to_knapper {
+  display: flex;
+  justify-content: space-between;
 }
 
 /* OM MIG */
