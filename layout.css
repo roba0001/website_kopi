@@ -196,7 +196,7 @@ nav {
   margin: 10px 0;
 }
 
-/* SLIDESHOW taget fra W3schools */
+/* SLIDESHOW kode taget fra W3schools */
 * {
   box-sizing: border-box;
 }
@@ -273,11 +273,6 @@ body {
   display: inline-block;
   transition: background-color 0.6s ease;
 }
-
-/* .active,
-.dot:hover {
-  background-color: #f36b2f;
-} */
 
 /* Fading animation */
 .fade {

@@ -1,3 +1,4 @@
+// Slideshow - oprindelig kode fra W3schools, jeg har dog ændret lidt i den
 var slideshow1 = document.getElementById("slideshow1");
 slideshow1.currentSlideIndex = 1;
 showSlides(slideshow1.currentSlideIndex, slideshow1);
