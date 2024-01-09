@@ -7,16 +7,27 @@ li {
 }
 
 @font-face {
-  font-family: "stora";
-  src: url("fonts/stora/Stora.woff2") format("woff2");
-  font-weight: normal;
-  font-style: normal;
+  font-family: CameraObscura;
+  src: url(fonts/CameraObscura.otf);
 }
-h1 {
-  font-family: stora;
-  color: #f15a29;
-  text-transform: uppercase;
+
+@font-face {
+  font-family: IBMPlexSans-Regular;
+  src: url(fonts/IBM_Plex_Sans/IBMPlexSans-Regular.ttf);
+}
+
+.displaytext {
   text-align: center;
+  font-family: CameraObscura;
+  color: #da8052;
+}
+
+.indholdsfortegnelse {
+  font-family: ;
+}
+
+p {
+  font-family: IBMPlexSans-Regular;
 }
 
 .button {
